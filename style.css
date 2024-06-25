@@ -9,13 +9,14 @@ header {
     display: flex;
     position: relative;
     top: 3em;
+    flex-shrink: 1;
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
     padding: 1em;
-
+    flex-shrink: 1;
 }
 
 li, a {
@@ -29,6 +30,8 @@ ul {
     display: flex;
     justify-content: space-around;
     width: 25%;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 nav ul li a {
@@ -78,10 +81,25 @@ nav ul li a:hover {
     flex-shrink: 1;
 }
 
+.card:hover {
+    background-color: lightblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .card img {
     width: 20vw;
     display: flex;
     flex-shrink: 1;
+}
+
+.card img:hover {
+    width: 25vw;
+}
+
+
+
+.card p, h3{
+    font-size: 120%;
 }
 
 
@@ -92,18 +110,19 @@ footer {
     top: 10em;
     display: flex;
     justify-content: flex-end;
+    flex-shrink: 1;
 }
 
 #myInfo {
     display: flex;
     position: relative;
     right: 2em;
-    
+    flex-shrink: 1;
 }
 
 .contact {
     display: flex;
-    width: 25%;
+    width: 25vw;
     padding: 1em;
-
+    flex-shrink: 3;
 }
