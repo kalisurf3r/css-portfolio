@@ -19,7 +19,7 @@ nav {
 }
 
 li, a {
-    text-decoration: none;
+    text-decoration: underline;
     list-style-type: none;
     color: white;
     font-size: 110%;
@@ -31,13 +31,23 @@ ul {
     width: 25%;
 }
 
+nav ul li a {
+    padding: 20px;
+}
+
 nav ul li a:hover {
     color: red;
+    background-color: beige;
+    
 }
 
 .aboutMe {
    background-color: beige;
     
+}
+
+.aboutMe p {
+    font-size: 120%;
 }
 
 .profile {
