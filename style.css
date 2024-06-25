@@ -1,0 +1,99 @@
+header {
+    background-color: navy;
+    color: white;
+    padding: 1em;
+    
+}
+
+#name {
+    display: flex;
+    position: relative;
+    top: 3em;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 110%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.aboutMe {
+   background-color: beige;
+    
+}
+
+.profile {
+    background-color: beige;
+}
+
+#selfie {
+    width: 15vw;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1em;
+    margin: 1em;
+    background-color: beige;
+    border: 1px dashed black;
+    flex-shrink: 1;
+}
+
+.card img {
+    width: 20vw;
+    display: flex;
+    flex-shrink: 1;
+}
+
+
+footer {
+    background-color: navy;
+    color: white;
+    padding: 1em;
+    top: 10em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#myInfo {
+    display: flex;
+    position: relative;
+    right: 2em;
+    
+}
+
+.contact {
+    display: flex;
+    width: 25%;
+    padding: 1em;
+
+}
