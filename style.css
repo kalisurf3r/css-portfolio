@@ -1,8 +1,8 @@
 header {
-    background-color: navy;
+    /* background-color: navy; */
     color: white;
     padding: 1em;
-    
+    background-image: linear-gradient(to left, #054ab1, #ad4d96, #d9747a, #dfaa81, #dcdcb3);
 }
 
 nav {
@@ -38,7 +38,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: navy;
+    background-color: rgb(58, 58, 219);
     color: white;
     padding: 1em;
     top: 10em;
@@ -81,6 +81,7 @@ footer {
 .card:hover {
     background-color: lightblue;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 0.6;
 }
 
 .card img {
